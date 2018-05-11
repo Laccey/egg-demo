@@ -1,0 +1,134 @@
+2018-05-11 15:35:21,384 ERROR 41161 [-/::1/-/4ms GET /news] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Applications/font/egg-example/node_modules/egg/lib/application.js:318:15)
+    at Object.get cookies [as cookies] (/Applications/font/egg-example/node_modules/egg/app/extend/context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Applications/font/egg-example/node_modules/egg-security/app/extend/context.js:78:33)
+    at Object.ensureCsrfSecret (/Applications/font/egg-example/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Applications/font/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Applications/font/egg-example/node_modules/koa-compose/index.js:42:32)
+    at /Applications/font/egg-example/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Applications/font/egg-example/node_modules/koa-compose/index.js:42:32)
+    at next (/Applications/font/egg-example/node_modules/koa-compose/index.js:43:18)
+    at session (/Applications/font/egg-example/node_modules/koa-session/index.js:41:13)
+
+pid: 41161
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 15:35:24,862 ERROR 41161 [-/::1/-/1ms GET /news] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Applications/font/egg-example/node_modules/egg/lib/application.js:318:15)
+    at Object.get cookies [as cookies] (/Applications/font/egg-example/node_modules/egg/app/extend/context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Applications/font/egg-example/node_modules/egg-security/app/extend/context.js:78:33)
+    at Object.ensureCsrfSecret (/Applications/font/egg-example/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Applications/font/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Applications/font/egg-example/node_modules/koa-compose/index.js:42:32)
+    at /Applications/font/egg-example/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Applications/font/egg-example/node_modules/koa-compose/index.js:42:32)
+    at next (/Applications/font/egg-example/node_modules/koa-compose/index.js:43:18)
+    at session (/Applications/font/egg-example/node_modules/koa-session/index.js:41:13)
+
+pid: 41161
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 16:25:43,647 ERROR 43418 nodejs.ClusterClientNoResponseError: client no response in 116543ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Applications/font/egg-example/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 43418
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 16:31:13,216 ERROR 43487 [-/::1/-/5027ms GET /news/list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Applications/font/egg-example/node_modules/urllib/lib/urllib.js:777:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5019, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 43487
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 16:31:48,203 ERROR 43542 [-/::1/-/5024ms GET /news/list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Applications/font/egg-example/node_modules/urllib/lib/urllib.js:777:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5016, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 43542
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 16:32:39,967 ERROR 43578 [-/::1/-/5023ms GET /news/list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Applications/font/egg-example/node_modules/urllib/lib/urllib.js:777:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5019, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 43578
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 16:50:36,398 ERROR 43725 [-/undefined/-/5019ms GET /news/list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":1},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Applications/font/egg-example/node_modules/urllib/lib/urllib.js:777:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5016, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+headerSent: true
+pid: 43725
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 16:50:40,389 ERROR 43725 [-/::1/-/5004ms GET /news/list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Applications/font/egg-example/node_modules/urllib/lib/urllib.js:777:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ConnectionTimeoutError'
+requestId: 2
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5003, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 43725
+hostname: liangxudeMacBook-Pro.local
+
+2018-05-11 18:09:28,717 ERROR 45022 nodejs.ClusterClientNoResponseError: client no response in 2095727ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Applications/font/egg-example/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 45022
+hostname: liangxudeMacBook-Pro.local
+

@@ -1,0 +1,260 @@
+{
+  "keys": "/Applications/font/egg-example/config/config.default.js",
+  "news": {
+    "pageSize": "/Applications/font/egg-example/config/config.default.js",
+    "serverUrl": "/Applications/font/egg-example/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Applications/font/egg-example/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Applications/font/egg-example/config/config.default.js"
+    },
+    "root": "/Applications/font/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Applications/font/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Applications/font/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Applications/font/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Applications/font/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Applications/font/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Applications/font/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Applications/font/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Applications/font/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Applications/font/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Applications/font/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Applications/font/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Applications/font/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Applications/font/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Applications/font/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Applications/font/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Applications/font/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Applications/font/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Applications/font/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Applications/font/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Applications/font/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Applications/font/egg-example/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Applications/font/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Applications/font/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Applications/font/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Applications/font/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Applications/font/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Applications/font/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Applications/font/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Applications/font/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Applications/font/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Applications/font/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Applications/font/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Applications/font/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Applications/font/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Applications/font/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Applications/font/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Applications/font/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Applications/font/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Applications/font/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Applications/font/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "main": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Applications/font/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Applications/font/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Applications/font/egg-example/node_modules/egg/config/config.default.js"
+}
